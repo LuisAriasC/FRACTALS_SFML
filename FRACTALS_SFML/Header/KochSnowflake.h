@@ -7,7 +7,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <cmath>
-#include "Renderer.h"
+#include "renderer.h"
 
 
 float TriangleHeight(sf::Vector2f& pointA, sf::Vector2f& pointB);

@@ -5,18 +5,13 @@
 SierpinskiOctagon::SierpinskiOctagon(){}
 SierpinskiOctagon::~SierpinskiOctagon(){}
 
-void SierpinskiOctagon::Render(sf::RenderWindow& window) //OBTIENE UN RENDERWINDOW
-{   /*ESTA FUNCIÓN OBTIENE LOS PARÁMETROS PARA ENCONTRAR LAS DIMENSIONES DE LOS PUNTOS
-     DEL PENTÁGONO DENTRO DEL BOUNDING BOX
-     */
+void SierpinskiOctagon::Render(sf::RenderWindow& window)
+{
     sf::Vector2f bottomRightPoint = sf::Vector2f(m_boundingBox.getPosition().x + m_boundingBox.getSize().x, m_boundingBox.getPosition().y + m_boundingBox.getSize().y);
-    //bottomRightPoint es el punto bajo del bounding box
     
     sf::Vector2f topLeftPoint = sf::Vector2f(m_boundingBox.getPosition());
-    //bottomLeftPoint es el punto alto del bounding box (0,0)
     
     sf::Vector2f center = sf::Vector2f((bottomRightPoint.x + topLeftPoint.x)/2.0, (bottomRightPoint.y + topLeftPoint.y)/2);
-    //centro del pentágono
     
     sf::Vector2f p1 = sf::Vector2f((bottomRightPoint.x + topLeftPoint.x)/2.0, topLeftPoint.y);
     
@@ -301,35 +296,34 @@ void SierpinskiOctagon::drawSierpinskiOctagon(const sf::Vector2f &reference_poin
 
 void SierpinskiOctagon::setNumberOfIterations(int newNumberOfIterations)
 {
-    m_numberOfIterations = newNumberOfIterations; //DA EL NÚMERO DE ITERACIONES
+    m_numberOfIterations = newNumberOfIterations;
 }
 
 int SierpinskiOctagon::getNumberOfIterations() const
 {
-    return m_numberOfIterations; //OBTIENE EL NÚMERO DE ITERACIONES ***** BUSCAR DONDE SE USA
+    return m_numberOfIterations;
 }
 
 void SierpinskiOctagon::setBoundingBox(float x1, float y1, float x2, float y2)
-{   //x1 y1 son los puntos de la esquina superior izquierda y x2 y2 de la esquina inferior derecha
-    
-    m_boundingBox = sf::RectangleShape();           //CONSTRUCTOR m_boundingBox
-    m_boundingBox.setPosition(sf::Vector2f(x1, y1));//PONE LA POSICIÓN DEL bounding box
-    m_boundingBox.setSize(sf::Vector2f(x2 - x1, y2 - y1)); //DEFINE EL TAMAÑO DEL BOUNDING BOX
+{
+    m_boundingBox = sf::RectangleShape();
+    m_boundingBox.setPosition(sf::Vector2f(x1, y1));
+    m_boundingBox.setSize(sf::Vector2f(x2 - x1, y2 - y1));
 }
 
 
 
 sf::RectangleShape SierpinskiOctagon::getBoundingBox() const
 {
-    return m_boundingBox;                   //REGRESA EL BOUNDING BOX
+    return m_boundingBox;
 }
 
-void SierpinskiOctagon::setColor(const sf::Color& newColor) //DA EL COLOR PRINCIPAL ** VER SI SE USA OTRA VEZ
+void SierpinskiOctagon::setColor(const sf::Color& newColor)
 {
     m_color = sf::Color(newColor);
 }
 
-sf::Color SierpinskiOctagon::getColor() const //OBTIENE EL COLOR *** VER DONDE SE USA
+sf::Color SierpinskiOctagon::getColor() const
 {
     return m_color;
 }

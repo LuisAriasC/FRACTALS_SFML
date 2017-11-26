@@ -1,15 +1,8 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
-#include <thread>
-#include <chrono>
-#include <cmath>
 #include "Header/Renderer.h"
 #include "Header/SierpinskiTriangle.h"
 #include "Header/SierpinskiCarpet.h"
-#include "Header/CirclePattern.h"
 #include "Header/KochSnowflake.h"
 #include "Header/TreeFractal.h"
-#include "Header/Mandelbrot.h"
 #include "Header/SierpinskiPentagon.h"
 #include "Header/SiepinskiHexagon.h"
 #include "Header/SierpinskiOctagon.h"
@@ -19,10 +12,10 @@
 #include "Header/SierpinskiEnorme.h"
 
 // define what preset you want to draw, _MANDELBROT, _TRIANGLE, _CARPET, _KOCH, _TREE, _PENTAGON, _HEXAGON,  _HEPTAGON, _OCTAGON, _CUADRO, _MCUADRO, _ENORME
-#define _PENTAGON
+#define _ENORME
 
 // Mandelbrot has a preview mode because the Rendering is much more demanging. Use "S" to render the image in desired resolution
-#ifdef _PENTAGON
+#ifdef _ENORME
 #define WIDTH 700
 #define HEIGHT 700
 #else

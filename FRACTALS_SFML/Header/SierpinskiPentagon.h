@@ -2,13 +2,8 @@
 #define SIERPINSKIPYRAMID_H
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include <thread>
-#include <chrono>
-#include <stdlib.h>
 #include <cmath>
-#include <vector>
-#include <algorithm>
-#include "Renderer.h"
+#include "renderer.h"
 
 class SierpinskiPentagon
 {
@@ -17,21 +12,12 @@ public:
     ~SierpinskiPentagon();
     void setNumberOfIterations(int newNumberOfIterations);
     int getNumberOfIterations() const;
-    
-    //void setBoundingBox(const sf::RectangleShape& newBoundingBox);
-    //void setBoundingBox(const sf::Vector2f& topLeft, const sf::Vector2f& bottomRight);
-    
+
     void setBoundingBox(float x1, float y1, float x2, float y2);
     sf::RectangleShape getBoundingBox() const;
     
     void setColor(const sf::Color& newColor);
     sf::Color getColor() const;
-    
-    
-    /*
-     *  Recursively calls itself for the top, left and right subtriangle and draws the final iteration
-     */
-    
     
     void drawSierpinskiPentagon(const sf::Vector2f &reference_point,
                                 const sf::Vector2f &centro,
@@ -39,13 +25,7 @@ public:
                                 double ang_actual,
                                 double incremento_ang,
                                 int iteration, sf::RenderWindow &window);
-    /*
-    void drawSierpinskiTriangle(const sf::Vector2f &top,
-                                const sf::Vector2f &left,
-                                const sf::Vector2f &right,
-                                int iteration, sf::RenderWindow &window);
-    */
-    
+
     void Render(sf::RenderWindow& window);
     
 private:

@@ -2,13 +2,8 @@
 #define SIERPINSKICARPET_H
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include <thread>
-#include <chrono>
-#include <stdlib.h>
 #include <cmath>
-#include <vector>
-#include <algorithm>
-#include "Renderer.h"
+#include "renderer.h"
 
 
 class SierpinskiCarpet

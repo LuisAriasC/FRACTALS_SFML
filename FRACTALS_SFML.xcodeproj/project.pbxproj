@@ -13,9 +13,6 @@
 		1763FD981FC8E7EF00F9863A /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD931FC8E7EE00F9863A /* libsfml-graphics.2.4.2.dylib */; };
 		1763FD991FC8E7EF00F9863A /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD941FC8E7EE00F9863A /* libsfml-network.2.4.2.dylib */; };
 		1763FD9A1FC8E7EF00F9863A /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD951FC8E7EE00F9863A /* libsfml-system.2.4.2.dylib */; };
-		1763FDA81FC8EA7D00F9863A /* CirclePattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */; };
-		1763FDAB1FC8EAB400F9863A /* KochSnowflake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */; };
-		1763FDAD1FC8EAE200F9863A /* Mendelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */; };
 		1763FDAF1FC8EAFE00F9863A /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */; };
 		1763FDB21FC8EB1E00F9863A /* SierpinskiCarpet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */; };
 		1763FDB51FC8EB4900F9863A /* SierpinskiTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */; };
@@ -27,6 +24,7 @@
 		1763FDC61FCA6D6E00F9863A /* SierpinskiCuadro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDC51FCA6D6E00F9863A /* SierpinskiCuadro.cpp */; };
 		1763FDC91FCA808000F9863A /* SierpinskiMedioCuadro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDC81FCA808000F9863A /* SierpinskiMedioCuadro.cpp */; };
 		1763FDCC1FCA87F200F9863A /* SierpinskiEnorme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDCB1FCA87F200F9863A /* SierpinskiEnorme.cpp */; };
+		1763FDCF1FCB436A00F9863A /* KochSnowflake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDCD1FCB436A00F9863A /* KochSnowflake.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,16 +47,11 @@
 		1763FD931FC8E7EE00F9863A /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
 		1763FD941FC8E7EE00F9863A /* libsfml-network.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-network.2.4.2.dylib"; sourceTree = "<group>"; };
 		1763FD951FC8E7EE00F9863A /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
-		1763FDA01FC8E89200F9863A /* CirclePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePattern.h; sourceTree = "<group>"; };
 		1763FDA11FC8E8CA00F9863A /* KochSnowflake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KochSnowflake.h; sourceTree = "<group>"; };
-		1763FDA21FC8E90700F9863A /* Mandelbrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mandelbrot.h; sourceTree = "<group>"; };
-		1763FDA31FC8E92400F9863A /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		1763FDA31FC8E92400F9863A /* renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
 		1763FDA41FC8E9CC00F9863A /* SierpinskiCarpet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiCarpet.h; sourceTree = "<group>"; };
 		1763FDA51FC8E9EC00F9863A /* SierpinskiTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiTriangle.h; sourceTree = "<group>"; };
 		1763FDA61FC8EA0D00F9863A /* TreeFractal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeFractal.h; sourceTree = "<group>"; };
-		1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CirclePattern.cpp; sourceTree = "<group>"; };
-		1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KochSnowflake.cpp; sourceTree = "<group>"; };
-		1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mendelbrot.cpp; sourceTree = "<group>"; };
 		1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
 		1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiCarpet.cpp; sourceTree = "<group>"; };
 		1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiTriangle.cpp; sourceTree = "<group>"; };
@@ -77,6 +70,7 @@
 		1763FDC81FCA808000F9863A /* SierpinskiMedioCuadro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiMedioCuadro.cpp; sourceTree = "<group>"; };
 		1763FDCA1FCA878E00F9863A /* SierpinskiEnorme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiEnorme.h; sourceTree = "<group>"; };
 		1763FDCB1FCA87F200F9863A /* SierpinskiEnorme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiEnorme.cpp; sourceTree = "<group>"; };
+		1763FDCD1FCB436A00F9863A /* KochSnowflake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KochSnowflake.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +132,7 @@
 		1763FD9D1FC8E84900F9863A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */,
-				1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */,
-				1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */,
+				1763FDCD1FCB436A00F9863A /* KochSnowflake.cpp */,
 				1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */,
 				1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */,
 				1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */,
@@ -166,10 +158,8 @@
 		1763FD9F1FC8E86400F9863A /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				1763FDA01FC8E89200F9863A /* CirclePattern.h */,
 				1763FDA11FC8E8CA00F9863A /* KochSnowflake.h */,
-				1763FDA21FC8E90700F9863A /* Mandelbrot.h */,
-				1763FDA31FC8E92400F9863A /* Renderer.h */,
+				1763FDA31FC8E92400F9863A /* renderer.h */,
 				1763FDA41FC8E9CC00F9863A /* SierpinskiCarpet.h */,
 				1763FDA51FC8E9EC00F9863A /* SierpinskiTriangle.h */,
 				1763FDC71FCA802500F9863A /* SierpinskiMedioCuadro.h */,
@@ -241,12 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1763FDA81FC8EA7D00F9863A /* CirclePattern.cpp in Sources */,
 				1763FDC61FCA6D6E00F9863A /* SierpinskiCuadro.cpp in Sources */,
 				1763FDCC1FCA87F200F9863A /* SierpinskiEnorme.cpp in Sources */,
 				1763FDB91FC90CA000F9863A /* SierpinskiPentagon.cpp in Sources */,
 				1763FDB51FC8EB4900F9863A /* SierpinskiTriangle.cpp in Sources */,
 				1763FDBD1FCA2F0B00F9863A /* SierpinskiHexagon.cpp in Sources */,
+				1763FDCF1FCB436A00F9863A /* KochSnowflake.cpp in Sources */,
 				1763FDC91FCA808000F9863A /* SierpinskiMedioCuadro.cpp in Sources */,
 				1763FDB21FC8EB1E00F9863A /* SierpinskiCarpet.cpp in Sources */,
 				1763FDC01FCA3B9B00F9863A /* SierpinskiOctagon.cpp in Sources */,
@@ -254,8 +244,6 @@
 				1763FDAF1FC8EAFE00F9863A /* Renderer.cpp in Sources */,
 				1763FD8A1FC8E6AB00F9863A /* main.cpp in Sources */,
 				1763FDB71FC8EB7700F9863A /* TreeFractal.cpp in Sources */,
-				1763FDAB1FC8EAB400F9863A /* KochSnowflake.cpp in Sources */,
-				1763FDAD1FC8EAE200F9863A /* Mendelbrot.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
