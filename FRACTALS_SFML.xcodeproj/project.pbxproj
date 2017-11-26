@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1763FD8A1FC8E6AB00F9863A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FD891FC8E6AB00F9863A /* main.cpp */; };
+		1763FD961FC8E7EF00F9863A /* libsfml-audio.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD911FC8E7EE00F9863A /* libsfml-audio.2.4.2.dylib */; };
+		1763FD971FC8E7EF00F9863A /* libsfml-window.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD921FC8E7EE00F9863A /* libsfml-window.2.4.2.dylib */; };
+		1763FD981FC8E7EF00F9863A /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD931FC8E7EE00F9863A /* libsfml-graphics.2.4.2.dylib */; };
+		1763FD991FC8E7EF00F9863A /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD941FC8E7EE00F9863A /* libsfml-network.2.4.2.dylib */; };
+		1763FD9A1FC8E7EF00F9863A /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763FD951FC8E7EE00F9863A /* libsfml-system.2.4.2.dylib */; };
+		1763FDA81FC8EA7D00F9863A /* CirclePattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */; };
+		1763FDAB1FC8EAB400F9863A /* KochSnowflake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */; };
+		1763FDAD1FC8EAE200F9863A /* Mendelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */; };
+		1763FDAF1FC8EAFE00F9863A /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */; };
+		1763FDB21FC8EB1E00F9863A /* SierpinskiCarpet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */; };
+		1763FDB51FC8EB4900F9863A /* SierpinskiTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */; };
+		1763FDB71FC8EB7700F9863A /* TreeFractal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB61FC8EB7700F9863A /* TreeFractal.cpp */; };
+		1763FDB91FC90CA000F9863A /* SierpinskiPentagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDB81FC90CA000F9863A /* SierpinskiPentagon.cpp */; };
+		1763FDBD1FCA2F0B00F9863A /* SierpinskiHexagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDBC1FCA2F0B00F9863A /* SierpinskiHexagon.cpp */; };
+		1763FDC01FCA3B9B00F9863A /* SierpinskiOctagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDBF1FCA3B9B00F9863A /* SierpinskiOctagon.cpp */; };
+		1763FDC31FCA66E700F9863A /* SierpinskiHeptagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDC21FCA66E700F9863A /* SierpinskiHeptagon.cpp */; };
+		1763FDC61FCA6D6E00F9863A /* SierpinskiCuadro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDC51FCA6D6E00F9863A /* SierpinskiCuadro.cpp */; };
+		1763FDC91FCA808000F9863A /* SierpinskiMedioCuadro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDC81FCA808000F9863A /* SierpinskiMedioCuadro.cpp */; };
+		1763FDCC1FCA87F200F9863A /* SierpinskiEnorme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1763FDCB1FCA87F200F9863A /* SierpinskiEnorme.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1763FD841FC8E6AB00F9863A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1763FD861FC8E6AB00F9863A /* FRACTALS_SFML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FRACTALS_SFML; sourceTree = BUILT_PRODUCTS_DIR; };
+		1763FD891FC8E6AB00F9863A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1763FD911FC8E7EE00F9863A /* libsfml-audio.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-audio.2.4.2.dylib"; sourceTree = "<group>"; };
+		1763FD921FC8E7EE00F9863A /* libsfml-window.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-window.2.4.2.dylib"; sourceTree = "<group>"; };
+		1763FD931FC8E7EE00F9863A /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
+		1763FD941FC8E7EE00F9863A /* libsfml-network.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-network.2.4.2.dylib"; sourceTree = "<group>"; };
+		1763FD951FC8E7EE00F9863A /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
+		1763FDA01FC8E89200F9863A /* CirclePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePattern.h; sourceTree = "<group>"; };
+		1763FDA11FC8E8CA00F9863A /* KochSnowflake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KochSnowflake.h; sourceTree = "<group>"; };
+		1763FDA21FC8E90700F9863A /* Mandelbrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mandelbrot.h; sourceTree = "<group>"; };
+		1763FDA31FC8E92400F9863A /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		1763FDA41FC8E9CC00F9863A /* SierpinskiCarpet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiCarpet.h; sourceTree = "<group>"; };
+		1763FDA51FC8E9EC00F9863A /* SierpinskiTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiTriangle.h; sourceTree = "<group>"; };
+		1763FDA61FC8EA0D00F9863A /* TreeFractal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeFractal.h; sourceTree = "<group>"; };
+		1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CirclePattern.cpp; sourceTree = "<group>"; };
+		1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KochSnowflake.cpp; sourceTree = "<group>"; };
+		1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mendelbrot.cpp; sourceTree = "<group>"; };
+		1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiCarpet.cpp; sourceTree = "<group>"; };
+		1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiTriangle.cpp; sourceTree = "<group>"; };
+		1763FDB61FC8EB7700F9863A /* TreeFractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeFractal.cpp; sourceTree = "<group>"; };
+		1763FDB81FC90CA000F9863A /* SierpinskiPentagon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiPentagon.cpp; sourceTree = "<group>"; };
+		1763FDBA1FC90D9D00F9863A /* SierpinskiPentagon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiPentagon.h; sourceTree = "<group>"; };
+		1763FDBB1FCA2E8700F9863A /* SiepinskiHexagon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiepinskiHexagon.h; sourceTree = "<group>"; };
+		1763FDBC1FCA2F0B00F9863A /* SierpinskiHexagon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiHexagon.cpp; sourceTree = "<group>"; };
+		1763FDBE1FCA3B2E00F9863A /* SierpinskiOctagon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiOctagon.h; sourceTree = "<group>"; };
+		1763FDBF1FCA3B9B00F9863A /* SierpinskiOctagon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiOctagon.cpp; sourceTree = "<group>"; };
+		1763FDC11FCA65FE00F9863A /* SierpinskiHeptahon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiHeptahon.h; sourceTree = "<group>"; };
+		1763FDC21FCA66E700F9863A /* SierpinskiHeptagon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiHeptagon.cpp; sourceTree = "<group>"; };
+		1763FDC41FCA6D1300F9863A /* SierpinskiCuadro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiCuadro.h; sourceTree = "<group>"; };
+		1763FDC51FCA6D6E00F9863A /* SierpinskiCuadro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiCuadro.cpp; sourceTree = "<group>"; };
+		1763FDC71FCA802500F9863A /* SierpinskiMedioCuadro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiMedioCuadro.h; sourceTree = "<group>"; };
+		1763FDC81FCA808000F9863A /* SierpinskiMedioCuadro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiMedioCuadro.cpp; sourceTree = "<group>"; };
+		1763FDCA1FCA878E00F9863A /* SierpinskiEnorme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierpinskiEnorme.h; sourceTree = "<group>"; };
+		1763FDCB1FCA87F200F9863A /* SierpinskiEnorme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SierpinskiEnorme.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1763FD831FC8E6AB00F9863A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1763FD961FC8E7EF00F9863A /* libsfml-audio.2.4.2.dylib in Frameworks */,
+				1763FD971FC8E7EF00F9863A /* libsfml-window.2.4.2.dylib in Frameworks */,
+				1763FD981FC8E7EF00F9863A /* libsfml-graphics.2.4.2.dylib in Frameworks */,
+				1763FD991FC8E7EF00F9863A /* libsfml-network.2.4.2.dylib in Frameworks */,
+				1763FD9A1FC8E7EF00F9863A /* libsfml-system.2.4.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1763FD7D1FC8E6AB00F9863A = {
+			isa = PBXGroup;
+			children = (
+				1763FD881FC8E6AB00F9863A /* FRACTALS_SFML */,
+				1763FD871FC8E6AB00F9863A /* Products */,
+				1763FD901FC8E7EE00F9863A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1763FD871FC8E6AB00F9863A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1763FD861FC8E6AB00F9863A /* FRACTALS_SFML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1763FD881FC8E6AB00F9863A /* FRACTALS_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				1763FD9F1FC8E86400F9863A /* Header */,
+				1763FD9E1FC8E85600F9863A /* Images */,
+				1763FD9D1FC8E84900F9863A /* Source */,
+				1763FD891FC8E6AB00F9863A /* main.cpp */,
+			);
+			path = FRACTALS_SFML;
+			sourceTree = "<group>";
+		};
+		1763FD901FC8E7EE00F9863A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1763FD911FC8E7EE00F9863A /* libsfml-audio.2.4.2.dylib */,
+				1763FD931FC8E7EE00F9863A /* libsfml-graphics.2.4.2.dylib */,
+				1763FD941FC8E7EE00F9863A /* libsfml-network.2.4.2.dylib */,
+				1763FD951FC8E7EE00F9863A /* libsfml-system.2.4.2.dylib */,
+				1763FD921FC8E7EE00F9863A /* libsfml-window.2.4.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1763FD9D1FC8E84900F9863A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1763FDA71FC8EA7D00F9863A /* CirclePattern.cpp */,
+				1763FDA91FC8EAB400F9863A /* KochSnowflake.cpp */,
+				1763FDAC1FC8EAE200F9863A /* Mendelbrot.cpp */,
+				1763FDAE1FC8EAFE00F9863A /* Renderer.cpp */,
+				1763FDB01FC8EB1E00F9863A /* SierpinskiCarpet.cpp */,
+				1763FDB31FC8EB4900F9863A /* SierpinskiTriangle.cpp */,
+				1763FDC81FCA808000F9863A /* SierpinskiMedioCuadro.cpp */,
+				1763FDC51FCA6D6E00F9863A /* SierpinskiCuadro.cpp */,
+				1763FDB81FC90CA000F9863A /* SierpinskiPentagon.cpp */,
+				1763FDBC1FCA2F0B00F9863A /* SierpinskiHexagon.cpp */,
+				1763FDC21FCA66E700F9863A /* SierpinskiHeptagon.cpp */,
+				1763FDBF1FCA3B9B00F9863A /* SierpinskiOctagon.cpp */,
+				1763FDCB1FCA87F200F9863A /* SierpinskiEnorme.cpp */,
+				1763FDB61FC8EB7700F9863A /* TreeFractal.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1763FD9E1FC8E85600F9863A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1763FD9F1FC8E86400F9863A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				1763FDA01FC8E89200F9863A /* CirclePattern.h */,
+				1763FDA11FC8E8CA00F9863A /* KochSnowflake.h */,
+				1763FDA21FC8E90700F9863A /* Mandelbrot.h */,
+				1763FDA31FC8E92400F9863A /* Renderer.h */,
+				1763FDA41FC8E9CC00F9863A /* SierpinskiCarpet.h */,
+				1763FDA51FC8E9EC00F9863A /* SierpinskiTriangle.h */,
+				1763FDC71FCA802500F9863A /* SierpinskiMedioCuadro.h */,
+				1763FDC41FCA6D1300F9863A /* SierpinskiCuadro.h */,
+				1763FDBA1FC90D9D00F9863A /* SierpinskiPentagon.h */,
+				1763FDBB1FCA2E8700F9863A /* SiepinskiHexagon.h */,
+				1763FDC11FCA65FE00F9863A /* SierpinskiHeptahon.h */,
+				1763FDBE1FCA3B2E00F9863A /* SierpinskiOctagon.h */,
+				1763FDCA1FCA878E00F9863A /* SierpinskiEnorme.h */,
+				1763FDA61FC8EA0D00F9863A /* TreeFractal.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1763FD851FC8E6AB00F9863A /* FRACTALS_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1763FD8D1FC8E6AB00F9863A /* Build configuration list for PBXNativeTarget "FRACTALS_SFML" */;
+			buildPhases = (
+				1763FD821FC8E6AB00F9863A /* Sources */,
+				1763FD831FC8E6AB00F9863A /* Frameworks */,
+				1763FD841FC8E6AB00F9863A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRACTALS_SFML;
+			productName = FRACTALS_SFML;
+			productReference = 1763FD861FC8E6AB00F9863A /* FRACTALS_SFML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1763FD7E1FC8E6AB00F9863A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Luis Arias";
+				TargetAttributes = {
+					1763FD851FC8E6AB00F9863A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1763FD811FC8E6AB00F9863A /* Build configuration list for PBXProject "FRACTALS_SFML" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1763FD7D1FC8E6AB00F9863A;
+			productRefGroup = 1763FD871FC8E6AB00F9863A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1763FD851FC8E6AB00F9863A /* FRACTALS_SFML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1763FD821FC8E6AB00F9863A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1763FDA81FC8EA7D00F9863A /* CirclePattern.cpp in Sources */,
+				1763FDC61FCA6D6E00F9863A /* SierpinskiCuadro.cpp in Sources */,
+				1763FDCC1FCA87F200F9863A /* SierpinskiEnorme.cpp in Sources */,
+				1763FDB91FC90CA000F9863A /* SierpinskiPentagon.cpp in Sources */,
+				1763FDB51FC8EB4900F9863A /* SierpinskiTriangle.cpp in Sources */,
+				1763FDBD1FCA2F0B00F9863A /* SierpinskiHexagon.cpp in Sources */,
+				1763FDC91FCA808000F9863A /* SierpinskiMedioCuadro.cpp in Sources */,
+				1763FDB21FC8EB1E00F9863A /* SierpinskiCarpet.cpp in Sources */,
+				1763FDC01FCA3B9B00F9863A /* SierpinskiOctagon.cpp in Sources */,
+				1763FDC31FCA66E700F9863A /* SierpinskiHeptagon.cpp in Sources */,
+				1763FDAF1FC8EAFE00F9863A /* Renderer.cpp in Sources */,
+				1763FD8A1FC8E6AB00F9863A /* main.cpp in Sources */,
+				1763FDB71FC8EB7700F9863A /* TreeFractal.cpp in Sources */,
+				1763FDAB1FC8EAB400F9863A /* KochSnowflake.cpp in Sources */,
+				1763FDAD1FC8EAE200F9863A /* Mendelbrot.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1763FD8B1FC8E6AB00F9863A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1763FD8C1FC8E6AB00F9863A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1763FD8E1FC8E6AB00F9863A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/ExternalLibraries/SFML/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1763FD8F1FC8E6AB00F9863A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/ExternalLibraries/SFML/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1763FD811FC8E6AB00F9863A /* Build configuration list for PBXProject "FRACTALS_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1763FD8B1FC8E6AB00F9863A /* Debug */,
+				1763FD8C1FC8E6AB00F9863A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1763FD8D1FC8E6AB00F9863A /* Build configuration list for PBXNativeTarget "FRACTALS_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1763FD8E1FC8E6AB00F9863A /* Debug */,
+				1763FD8F1FC8E6AB00F9863A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1763FD7E1FC8E6AB00F9863A /* Project object */;
+}
